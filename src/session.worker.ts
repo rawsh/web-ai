@@ -1,4 +1,4 @@
-import "subworkers"
+require("subworkers")
 import * as Comlink from "comlink";
 import { Session } from "./session";
 
