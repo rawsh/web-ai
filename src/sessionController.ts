@@ -4,6 +4,8 @@ import { Remote, wrap } from "comlink";
 import { Session } from "./session";
 import { SessionParams } from "./sessionParams";
 
+import 'nested-worker/window.js';
+
 export const createSession = async (modelPath: string, proxy: boolean): Promise<Session | Comlink.Remote<Session>> => {
   if (proxy && typeof document !== "undefined") {
     ort.env.wasm.proxy = true;

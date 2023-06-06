@@ -1,3 +1,4 @@
+import 'nested-worker/window.js';
 import * as Comlink from "comlink";
 import { Session } from "./session";
 
