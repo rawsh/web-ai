@@ -19,9 +19,6 @@ dependencies:
   pako:
     specifier: 2.1.0
     version: 2.1.0
-  subworkers:
-    specifier: ^1.0.1
-    version: 1.0.1
 
 devDependencies:
   '@types/jest':
@@ -3485,10 +3482,6 @@ packages:
     dependencies:
       '@tokenizer/token': 0.3.0
       peek-readable: 4.1.0
-    dev: false
-
-  /subworkers@1.0.1:
-    resolution: {integrity: sha512-5R3HH7AMvvuWozRqgOCe/zJic3Hn/mdVHpg7ILuo2BV8qosTiDDngLpsvNernPnUnH57fP3IWU8Eux354E2WcQ==}
     dev: false
 
   /supports-color@5.5.0:

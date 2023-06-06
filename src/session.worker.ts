@@ -1,4 +1,4 @@
-import 'subworkers'
+importScripts("subworkers.js");
 import * as Comlink from "comlink";
 import { Session } from "./session";
 

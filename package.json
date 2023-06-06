@@ -39,8 +39,7 @@
     "comlink": "4.3.1",
     "localforage": "1.10.0",
     "onnxruntime-web": "1.14.0",
-    "pako": "2.1.0",
-    "subworkers": "^1.0.1"
+    "pako": "2.1.0"
   },
   "peerDependencies": {
     "jimp": "0.16.2"
