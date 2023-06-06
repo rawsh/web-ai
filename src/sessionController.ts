@@ -9,8 +9,7 @@ import 'subworkers'
 export const createSession = async (modelPath: string, proxy: boolean): Promise<Session | Comlink.Remote<Session>> => {
   if (proxy && typeof document !== "undefined") {
     ort.env.wasm.proxy = true;
-    const worker = new Worker((new URL("./session.worker.js", 
-import.meta.url)).toString(), { type: "module" });
+    const worker = new Worker("./session.worker.js", { type: "module" });
     const Channel = wrap<typeof Session>(worker);
     const session: Remote<Session> = await new Channel(SessionParams);
     await session.init(modelPath);
