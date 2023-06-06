@@ -38,9 +38,9 @@
     "@visheratin/tokenizers": "0.1.5",
     "comlink": "4.3.1",
     "localforage": "1.10.0",
-    "nested-worker": "github:johanholmerin/nested-worker#semver:^1.0.0",
     "onnxruntime-web": "1.14.0",
-    "pako": "2.1.0"
+    "pako": "2.1.0",
+    "subworkers": "^1.0.1"
   },
   "peerDependencies": {
     "jimp": "0.16.2"

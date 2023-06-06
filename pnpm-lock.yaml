@@ -13,15 +13,15 @@ dependencies:
   localforage:
     specifier: 1.10.0
     version: 1.10.0
-  nested-worker:
-    specifier: github:johanholmerin/nested-worker#semver:^1.0.0
-    version: github.com/johanholmerin/nested-worker/ab3b06c721a61d789678a9458584c55c89ee36ca
   onnxruntime-web:
     specifier: 1.14.0
     version: 1.14.0
   pako:
     specifier: 2.1.0
     version: 2.1.0
+  subworkers:
+    specifier: ^1.0.1
+    version: 1.0.1
 
 devDependencies:
   '@types/jest':
@@ -3487,6 +3487,10 @@ packages:
       peek-readable: 4.1.0
     dev: false
 
+  /subworkers@1.0.1:
+    resolution: {integrity: sha512-5R3HH7AMvvuWozRqgOCe/zJic3Hn/mdVHpg7ILuo2BV8qosTiDDngLpsvNernPnUnH57fP3IWU8Eux354E2WcQ==}
+    dev: false
+
   /supports-color@5.5.0:
     resolution: {integrity: sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==}
     engines: {node: '>=4'}
@@ -3776,9 +3780,3 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
-
-  github.com/johanholmerin/nested-worker/ab3b06c721a61d789678a9458584c55c89ee36ca:
-    resolution: {tarball: https://codeload.github.com/johanholmerin/nested-worker/tar.gz/ab3b06c721a61d789678a9458584c55c89ee36ca}
-    name: nested-worker
-    version: 1.0.0
-    dev: false
